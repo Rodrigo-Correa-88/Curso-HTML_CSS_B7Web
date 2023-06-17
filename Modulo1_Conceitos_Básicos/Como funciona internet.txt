@@ -1,0 +1,55 @@
+                            >>>>>>Como funciona a internet ?
+Basicamente e a comunicação entre 2 aparelhos por sinal ou comunicação direta via cabo.
+
+O que é HTTP / HTTPS
+
+                            >>>>>>HTTP e a porta de entrada para um servidor;
+
+http://b7web.com.br -> por padrão geralmente o http aponta para porta 80
+https://b7web.com.br -> por padrão geralmente o https aponta para porta 443
+ftp -> por padrão geralmente aponta para porta 21
+
+https representa secure onde indica que a um processo de criptografia dos dados, isso indica que a
+comunicação entre a msg e o servidor e criptografada.
+
+**** pesquisar sobre certificado SSL
+
+                            >>>>>>Como um navaegador funciona ?
+
+O navegador e um interpretador de códigos fonte guardado em servidores, para inpecionar o codigo fonte 
+de um site basta localizar o comando inspecionar código fonte no proprio navegador. 
+
+                            >>>>>>DNS e Domínios
+
+Domínio e um endereço que referência um servidor, exemplo, 
+Domínio
+b7web.com.br
+SubDomínio (www)
+www.b7web.com.br e o que vem antes do domínio
+
+O DNS (Domain Name System – Sistema de nome de domínio) converte nomes de domínio legíveis por humanos
+(por exemplo, www.amazon.com) em endereços IP legíveis por máquina, os dominios ficam armazenados nos
+servidores de hospedagem.
+
+                            >>>>>>Como registrar um dominio ?
+A 2 tipos de dominios os nacionais(.br) e os internacionais(.com),
+para registro de dominios nacionais deve se usar o site registro.br,ali se coloca todos os dados do cliente
+e os servidores onde estão hospedados os projetos.
+
+Para dominios internacionais existe uma gama de sites (o curso demonstra o namecheap.com), para
+registro e a mesma função de dominios nacionais. 
+
+                             >>>>>>hospedagens e servidorres
+
+servidores geralmente são alugados para hospedagens de sites.
+
+hospedagem compartilhada: e quando um unico servidor abriga varios clientes juntos cada um com 
+seu espaçamento reservado.(geralmente e a mais barata porem a menos segura).
+
+Servidor Dedicado: diferente da compartilhada e um servidor com dono único (mais caro porem mais seguro).
+
+VPS: E um servidor compartilhado porem o servidor e dividido em varias partes unicas.
+
+Cloud / nuvem:e um servidor que possui memoria sobre demanda geralmente pago por hora
+
+para contratar serviços de hospedagem o curso indica a https://www.hostgator.com.br

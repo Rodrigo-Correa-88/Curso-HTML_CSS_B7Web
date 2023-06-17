@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table {
+            width: 600px;
+        }
+
+        th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead {
+            background-color: gray;
+            color: white;
+        }
+
+        tbody {
+            background-color: rgb(207, 211, 210);
+
+        }
+
+        tbody>tr:hover {
+            background-color: red;
+        }
+        tbody>tr:nth-child(even){
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Página de tabelas</h1>
+    <table width="400" border="0">
+
+        <thead>
+            <tr>
+                <th>item 1</th> <!-- th define op cabeçalho da tabela-->
+                <th>item 2</th>
+                <th>item 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>...</th>
+                <th>...</th>
+                <th>...</th>
+            </tr>
+            <tr>
+                <th>...</th>
+                <th>...</th>
+                <th>...</th>
+            </tr>
+            <tr>
+                <th>...</th>
+                <th>...</th>
+                <th>...</th>
+            </tr>
+            <tr>
+                <th>...</th>
+                <th>...</th>
+                <th>...</th>
+            </tr>
+        </tbody>
+</body>
+
+</html>

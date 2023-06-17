@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilo.css"> <!--Referênciando a folha CSS com link-->
+    <title>Document</title>
+    <!-- folha de estilo interno CSS interno -->
+    <!--
+    <style>
+
+        h3 {
+            color: blue;
+        }
+
+        a {
+            font-size: 25px;
+            color: green;
+        }
+
+        img {
+            width: 150; /*CSS inline tem prioridade sobre os outros*/
+        }
+
+        li {
+            font-weight: bold;
+            color: blueviolet;
+        }
+
+         .pc > li {
+            color: rgb(12, 140, 78);
+        }
+
+        
+    </style>
+    -->
+</head>
+
+<body>
+
+
+    <h1 style="color: red;">Titulo da Página</h1> <!--Exemplo de css inline-->
+    <h2>Sub-Titulo da Página</h2>
+    <h3>Página h3</h3>
+    <h4>Página h4</h4>
+    <h5>Página h5</h5>
+    <h6>Página h6</h6>
+    
+    <!--
+    as tags "h1,2,3,4..." auxiliam no motor
+    de busca de buscadores<br>
+    quanto melhor a posição melhor 
+    a força de busca
+    -->
+
+    <p>Tag "p" e utilizadad para paragráfos</p>
+
+    <!--
+    Tag "a" e utlizada para criar links no site
+    -->
+    <a href="https://www.google.com">Ir para para o site Google</a>
+    <br>
+    <!-- 
+    tag para exibir imagens "img"
+    tambem pode serr usado o caminho para pastas
+    para exibição de imagens,
+    "alt" serve para referenciar a imagem com texto
+    (**auxilia deficientes visuais) 
+    -->
+    <img src="https://www.google.com/google.jpg" alt="Imagem google" style="width: 100px;"> <!--css inline-->
+    <br>
+    <!--
+        tag para botões
+    -->
+    <button>Clique aqui!</button>
+
+    <!--
+        tag de quebra de linha 
+    -->
+    <br> <!-- tag de quebra de linha nao precisa de fechamento-->
+
+    <!--
+        tag para listas desordenadas "ul",
+        geralmente ela vem acompanhada de "li" qeu significa List Iten
+    -->
+    <h3>Receita de bolo</h3>
+    <ul>
+        <li>Farinha</li>
+        <li>ovos</li>
+        <li>Leite</li>
+        <li>fermento</li>
+        <li>açucar</li>
+    </ul>
+
+    <!--
+        tag de lista ordenadas "ol" segue o mesmo conceito do
+        "ul" porem ordena a lista com numeração.
+    -->
+
+    <h3>Peças de PC</h3>
+    <ol>
+        <div class="pc">
+            texto dentro da class
+        <li>Processador</li>
+        <li>Placa Mãe</li>
+        <li>Fonte</li>
+        <li>GPU</li>
+        <li>Memória</li>
+        <li>Gabinete</li>
+        </div>
+    </ol>
+
+
+</body>
+
+</html>

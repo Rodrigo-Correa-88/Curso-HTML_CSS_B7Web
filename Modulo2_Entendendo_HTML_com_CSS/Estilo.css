@@ -1,0 +1,40 @@
+/*
+CSS representa uma folha de estilo no html 
+ele modifica as tags do html.
+
+Quando se está comstruindo um site ele vai
+sempre definir as propriedades básicas do navegador
+até a folha de CSS ser editada.
+
+existem 3 formas de inserção de css em um código html
+
+- css inline : direto na linha de código html
+exemplo: linha 14 e 41 arquivo tags_basicas.html
+
+- css interno : quando o código css e feito dentro do código html
+atráves da marcação das tags, ele e normalmente colocado dentro da 
+divisão "head"
+*/
+
+h3 {
+    color: blue;
+}
+
+a {
+    font-size: 25px;
+    color: green;
+}
+
+img {
+    width: 150;
+    /*CSS inline tem prioridade sobre os outros*/
+}
+
+li {
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.pc>li {
+    color: rgb(12, 140, 78);
+}

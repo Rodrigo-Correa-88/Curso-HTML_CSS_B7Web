@@ -1,0 +1,24 @@
+
+#title {   /* o # e usado para acessar o id no html*/
+    color: rgb(10, 88, 160);
+}
+
+h2 {
+    color: rgb(67, 113, 20); /*quando se utiliza a tag somente o css vai modificar todas as tags do html*/
+}
+
+.text { /* o "." e usado para acessar as tags class no html*/
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text2, #text3 { /*quando se quer adicionar propriedades iguais em tags diferentes utilizamos a , como
+    separador das tags*/
+    font-size: 30px;
+    font-style: italic;
+}
+
+ul > li {  /* o sinal > é utilizado quando se quer acessar um elemento dentro de outro*/
+    color: pink;
+}
