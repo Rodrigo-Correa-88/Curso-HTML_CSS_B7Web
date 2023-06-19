@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascata</title>
+    <link rel="stylesheet" href="style2.css"><!-- arquivo externo-->
+    
+    <style type="text/css"> /* comando interno*/
+        .container {
+            color: #0f0;
+        }
+    </style>
+
+</head>
+<body>
+    <!--Existe um hierarquia no CSS onde e primeiro lido os arquivos externos
+    logo após os comandos internos e por último os comandos in line -->>
+
+    <h1>Título do Site</h1>
+
+    <div class="container" style="color: #00f;"> <!--comando in line-->
+        Este é um <strong>texto</strong> exemplo.
+    </div>
+    <div>
+        Outro Texto exemplo.
+    </div>
+    
+</body>
+</html>

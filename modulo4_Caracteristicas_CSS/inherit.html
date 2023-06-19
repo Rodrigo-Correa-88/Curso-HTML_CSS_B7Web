@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inherit</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        .box {
+            font-size: 15px;
+            color: blue;
+        }
+        h1 {
+            font-size: 30px;
+            color: red;
+        }
+
+        .box h1 {
+            font-size: inherit;
+            color: inherit; /*Inherit força uma herança*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Este é título da página</h1>
+
+    <div class="box">
+        <div class="box-interno">
+            <h1>Titulo interno</h1>
+            Esta é uma Frase
+        </div>
+    </div>    
+</body>
+</html>

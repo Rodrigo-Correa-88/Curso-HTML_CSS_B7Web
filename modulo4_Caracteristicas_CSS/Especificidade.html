@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especificidade</title>
+    <style>
+
+        /*
+        Lembrar que os comandos CSS são em modelo cascata,
+        são executados por ordem de escrita e sempre
+        levando em cosideração os mais específicos.
+        */
+
+        body {
+            margin: 0;
+        }
+
+        h1 {
+            color: gray;
+        }
+
+        .container {
+          color: #0f0 ;
+        }
+
+        div {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo do site</h1>
+
+    <div class="container">
+        Este e um <strong>texto</strong> exemplo
+    </div>
+
+    <div>
+        Outro texto de exemplo.
+    </div>
+    
+</body>
+</html>

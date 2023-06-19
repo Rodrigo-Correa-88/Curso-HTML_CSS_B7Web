@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidades Relativas</title>
+    <style>
+        
+        html {
+            font-size: 10px;
+        }
+
+
+        body {
+            font-size: 20px;
+        }
+
+        h1{
+            font-size: 3rem;
+
+            /*A medida "rem" leva em consideração a medida do primeiro
+            elemento no código no caso a tag html*/
+
+            /* "em"  e sempre baseado no font-size do item pai
+            no caso o font-size do body*/
+        }
+
+        .box {
+            font-size: 2rem;
+        }
+
+        .box-interno {
+            width: 10rem; 
+            /* "em"  e sempre baseado no font-size do item pai
+            no caso o font-size do box*/
+            height: 10rem;
+            background-color: gainsboro;
+        }
+    </style>
+</head>
+<body>
+    <!--Unidade relativas são as que mudam o tamanho 
+    baseado nos elementos que temos na página-->
+
+    <h1>Título da Página</h1>
+
+    <div class="box">
+        <div class="box-interno">
+            Frase Exemplo
+        </div>
+    </div>
+
+</body>
+</html>
