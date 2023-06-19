@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formatando Formulário</title>
+</head>
+
+<body>
+    <h1>Página teste</h1>
+    <h2>Área de Cadastro</h2>
+    <form action="login.html" method="post"> <!--Sempre utilizar post quando se está trabalhano
+    com dados sensíveis-->
+
+        <label for="name">
+            Nome Completo: <br>
+            <input type="text" name="name" id="name" placeholder="Insira seu nome">
+        </label>
+        
+        <label for="descricao">
+            Descrição<br>
+            <textarea name="descricao" id="descricao">
+
+            </textarea>
+        </label>
+        
+        <label for="categoria">
+            <select name="categoria" id="categoria">
+                <option value="categoria1">Categoria 1</option>
+                <option value="categoria2">Categoria 2</option>
+                <option value="categoria3">Categoria 3</option>
+                <option value="categoria4">Categoria 4</option>
+            </select>
+        </label>
+        
+        <label for="check">
+            <br><input type="checkbox" name="check" id="check">
+            Declaro que li e aceito os <a href="../paginas/termos.html" target="_blank">termos</a> de uso.
+        </label>
+
+        <br><button class="button">Enviar Formulário</button>
+    </form>
+</body>
+
+</html>

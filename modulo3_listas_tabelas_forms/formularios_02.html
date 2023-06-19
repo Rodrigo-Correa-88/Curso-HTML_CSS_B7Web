@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        button {
+            border-radius: 5px;
+            background-color: rgb(113, 180, 239);
+            border: 0px
+            ;
+        }
+
+        button:hover{
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>Página de Formulários </h1>
+    <!--Tipos de input que são suportadas somente por navegadores mais recentes-->
+    <div>
+        <form action="login.html" method="get"><!-- action e para onde serão enviadas as informações-->
+            Nome:<input type="text" name="usuario">
+            <input type="submit" name="Fazer Cadastro">
+        </form>
+        <form action="#" method="get">
+            <input type="color" name="usuario"><!--color abre uma paleta de cores para definição--> 
+        </form>
+        <form action="#" method="get">
+            <input type="date" name="usuario"><!--Formata o campo para definir datas--> 
+        </form>
+        <form action="#" method="get">
+            <input type="datetime-local" name="usuario"><!--Formata o campo para definir datas e horarios--> 
+        </form>
+        <form action="#" method="get">
+            <input type="time" name="usuario"><!--Formata o campo para definir somente a hora--> 
+        </form>
+        <form action="#" method="get">
+            <input type="month" name="usuario"><!--Formata o campo para definir mês e o ano--> 
+        </form>
+        <form action="#" method="get">
+            <input type="number" name="usuario"><!--Formata o campo para definir apenas números--> 
+        </form>
+        <form action="#" method="get">
+            <input type="range" name="usuario"><!--Formata o campo para selecionar um "alcance"--> 
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <form action="login.html" method="get">        
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="#">
+                <!-- required obriga pelo html o campo a ser preenchido -->
+                Nome:
+                <input type="text" name="nome" required minlength="2" maxlength="7"> 
+                <!--minlength e uma tag para um mínimo de caracteres e o maxlength e para um maximo de caracteres-->
+            </label>
+            <label for="#">
+            Sobrenome:
+            <input type="text" name="sobrenome">
+            </label>
+            <label for="#">
+            Idade:
+            <input type="number" name="idade" value="0" min="0" max="120">
+            </label>
+            <label for="#">
+            E-mail:
+            <input type="email" name="idade" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" title="E-mail" >
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados Empresariais</legend>
+            <label for="#">
+                Data de Contratação:
+                <input type="text" name="cargo">
+            </label>
+            <label for="#">
+                Cargo na Empresa:
+                <input type="date" name="contrato" min="1970-01-01">
+            </label>
+            <label for="#">
+                Nome da Empresa:
+                <input type="text" name="empresa">
+            </label>
+        </fieldset>
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+
+</html>

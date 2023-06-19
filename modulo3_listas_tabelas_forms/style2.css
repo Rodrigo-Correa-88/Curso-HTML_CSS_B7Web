@@ -1,0 +1,20 @@
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    background-color: #f5f4f4;
+    border-radius: 5px;
+    border: 2px solid  #dad8d8;
+    width: 350px;
+}
+
+legend {
+    color: darkgray;
+    padding: 4px;
+    border:  2px solid #dad8d8;
+    border-radius: 5px ;
+}
