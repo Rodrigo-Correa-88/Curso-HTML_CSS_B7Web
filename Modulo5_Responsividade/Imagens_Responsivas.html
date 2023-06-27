@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Reponsivas</title>
+</head>
+<body>
+    <picture>
+        <!-- 
+            tag "source" auxilia no trabalho de imagens onde o 
+            elemento "media" define o tamnho mínimo de tela para
+            cada imagem.
+        -->
+        <source media="(min-width: 450px)" srcset="img1">
+        <source media="(min-width: 650px)" srcset="img2">
+        <!--
+            "img" nesse caso fica de default
+        -->
+        <img src="imagens/imagem exemplo.jpg" alt="Imagem Exemplo">
+    </picture>
+</body>
+</html>

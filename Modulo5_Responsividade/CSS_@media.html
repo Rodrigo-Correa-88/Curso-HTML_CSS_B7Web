@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS @media</title>
+    <style>
+        body{
+            background-color: black;
+            color: azure;
+        }
+        /*teabalha  as caracteriscas do site*/
+        @media (min-width: 1010px) {
+            body {
+                background-color: rgb(96, 224, 64);
+                color: black;
+            }
+            h1 {
+                font-size: 5rem;
+            }
+        }
+        @media (min-width: 800px) and (max-width: 1000px) {
+            body {
+                background-color: rgb(216, 224, 64);
+                color: black;
+            }
+        }
+        @media (min-width: 700px) and (max-width: 799px) {
+            body {
+                background-color: turquoise;
+                color: black;
+            }
+        }
+        @media only print {
+            h1{
+                font-size: 2rem;
+                font-family: 'Times New Roman', Times, serif;
+                
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo da Página</h1>
+</body>
+</html>

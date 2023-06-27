@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Função Var</title>
+    <style>
+        :root {
+        /* Variáveis Globais */
+            --bg-color: #fff; 
+            --bg-second: #ccc;
+            --font-color: #f00;
+            --size: 30px;
+            --font-size: 25px
+        }
+
+        body {
+            background-color: var(--bg-color);
+            font-size: var(--font-size);
+        }
+
+        h1 {
+            color: var(--font-color)
+        }
+
+        .container {
+            --verde: #0f0; /* Variável Local */
+            font-size: var(--size);
+            background-color: var(--bg-second);
+            color: var(--verde)
+        }
+
+        @media (max-width: 450px) {
+            :root {
+                --font-size: 15px
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Título do Site</h1>
+    <div class="container">
+        <p>Algum conteúdo qualquer</p>
+    </div>
+</body>
+
+</html>
