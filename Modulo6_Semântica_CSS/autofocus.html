@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autofocus</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        input {
+            margin-bottom: 10px;
+            content: flex;
+        }
+
+        .login {
+            display: flex;
+            background-color: #ccc;
+            width: 200px;
+            height: 300px;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login">
+        <form action="" method="post">           
+            <label class="usuario" for="">
+                Úsuario:
+                <!-- autofocus é utilizado para ja deixar marcado o campo de 
+                interesse da página -->
+                <input type="text" placeholder="Insira o Úsuario" autofocus>
+            </label>
+            <br>
+            <label class="senha" for="">
+                Senha:
+                <input type="password" placeholder="Insira sua senha">
+            </label>
+            <input type="button" value="Enviar">
+        </form>
+    </div>
+</body>
+
+</html>

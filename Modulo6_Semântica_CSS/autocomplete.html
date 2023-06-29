@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Required Input</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #eee;
+        }
+        form {
+            border-radius: 10px;
+            width: 210px;
+            height: 150px;
+            background-color: #ddd;
+            margin: auto;
+            padding: 20px;
+            margin-top: 20px;            
+        }
+
+        input{           
+            margin: 5px;
+            padding: 5px;
+            font-size: 13px;
+            border-radius: 5px;
+        }        
+    </style>
+</head>
+<body>
+    <form action="" method="post">
+        Usuário:<br>
+        <!-- autocomplete é um atributo que o NAVEGADOR
+            lembra os dados digitados no campo, sendo que
+            quando o atributo está com o valor "on" é a permissão
+            so navegador utilizar o atributo diferente do "off" -->
+        <input type="text" name="email"  autocomplete="on"><br>
+        Senha:<br>
+        <input type="password" name="senha"><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transição</title>
+    <style>
+        .teste {
+            height: 100px;
+            width: 100px;
+            background-color: green;
+            margin: auto;
+            margin-top: 100px;
+            transition: all 1s linear;
+        }
+        .teste:hover {
+            width: 300px;
+        }
+
+        .texto {
+            font-size: 30px;
+            transition: all 1s linear;
+        }
+        .texto:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="teste"></div>
+    <div class="teste2">
+        <p class="texto"> Um texto de exemplo</p>
+    </div>
+</body>
+</html>
