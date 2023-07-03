@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução a Flexbox</title>
+    <style>
+        .container{
+            display: flex; /* display sempre por padrão trabalha na horizontal */
+            flex-direction: row; /* comando que define o sentido do flex */
+            background-color: #ddd;
+            margin: 10px;
+        }
+        
+        .div1 {
+            flex:1;
+            background-color: #f00;
+            margin: 10px;
+            padding: 10px;
+            color: white;           ;
+        }
+        .div2 {
+            flex:1;
+            background-color: #f00;
+            margin: 10px;
+            padding: 10px;
+            color: white;           ;
+        }
+        .div3 {
+            flex:2;
+            background-color: #f00;
+            margin: 10px;
+            padding: 10px;
+            color: white;           ;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="div1">1</div>
+        <div class="div2">2</div>       
+        <div class="div3">3</div>       
+    </div>    
+</body>
+</html>
