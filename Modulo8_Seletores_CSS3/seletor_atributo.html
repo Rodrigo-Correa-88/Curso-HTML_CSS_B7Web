@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletor Atributos</title>
+    <style>
+        [required] {
+            /* colocar o atributo entre colchetes */
+            background-color: #ff0000;
+                    }
+        input[name]{
+            /* outro método de seleção de atributo */
+            background-color: aqua;
+        }
+        input[type=text] {
+            /* seleciona pelo valor do atributo*/
+            border: 3px solid black;            
+        }
+
+            /* seletores para valores de texto específicos */
+        a[href*="politica"] {
+            background-color: blueviolet;
+        }
+        a[href*="futebol"] {
+            background-color: brown;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <input type="text" required>
+
+    <input type="password" name="senha">
+
+    <a href="https://www.youtube.com">Youtube</a>
+
+    <a href="https://monkeytype.com">site</a>
+
+    <a href="https://g1.globo.com/politica/noticia/2023/07/06/reforma-tributaria-veja-como-votou-cada-deputado.ghtml">Notícia</a>
+
+    <a href="https://ge.globo.com/rs/futebol/times/gremio/noticia/2023/07/07/gremio-e-unico-time-da-serie-a-sem-perder-em-casa-em-2023-e-recebe-lider-botafogo-melhor-visitante.ghtml">Esporte</a>
+</body>
+</html>
