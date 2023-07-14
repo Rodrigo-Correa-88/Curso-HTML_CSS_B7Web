@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Tabela</title>
+    <style>
+
+        body {
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        .table{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }        
+
+        table th  {
+            border: solid 1px rgb(0, 0, 0);
+        }
+
+        thead {
+            background-color: rgb(82, 82, 82);
+            color: azure;            
+        }
+
+        th {          
+           width: 70px;
+           text-align: center;
+        }
+
+         .color1 {
+            background-color: rgba(27, 218, 20, 0.59);
+         }
+    </style>
+</head>
+
+<body>
+    <div class="table">
+        <table>
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>name</th>
+                    <th>Major</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="color1">
+                    <th>1001</th>
+                    <th>Fulano</th>
+                    <th>Physics</th>
+                </tr>
+                <tr>
+                    <th>1002</th>
+                    <th>Fulano</th>
+                    <th>Economics</th>
+                </tr>
+                <tr class="color1">
+                    <th>1003</th>
+                    <th>Fulano</th>
+                    <th>Zoology</th>
+                </tr>
+                <tr>
+                    <th>1004</th>
+                    <th>Fulano</th>
+                    <th>Chemistry</th>
+                </tr>
+                <tr class="color1">
+                    <th>1005</th>
+                    <th>Fulano</th>
+                    <th>Math</th>
+                </tr>
+                <tr>
+                    <th>1006</th>
+                    <th>Fulano</th>
+                    <th>Botany</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
