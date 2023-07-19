@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout  Grid</title>
+    <style>
+
+        .container {
+            display: grid;
+            background-color: rgb(172, 172, 172);
+            padding: 10px;
+            border-radius: 10px;
+            gap: 5px 5px ;
+            grid-template-areas: 
+            "header header header header header"
+            "menu section section section section"
+            "footer footer footer  footer ad"
+           ;
+        }
+
+        .header {
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+            grid-area: header;
+            background-color: blueviolet;
+        }
+
+        .menu {
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+            grid-area: menu;
+            background-color: brown;
+        }
+
+        .section {
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+            grid-area: section;
+            background-color: chartreuse;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+            grid-area: footer;
+            background-color: crimson;
+        }
+
+        .ad {
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+            grid-area: ad;
+            background-color: rgb(141, 63, 78);
+
+        }
+
+        @media (max-width: 500px) {
+            .container {
+                grid-template-areas: 
+                "header header header"
+                "menu menu menu"
+                "section section section"
+                "footer footer ad";
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <header class="header">
+        <h1>Titutlo do site</h1>
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+        </ul>
+    </nav>
+
+    <section class="section">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in mattis nunc, id viverra felis. Nunc eget suscipit nisi, et faucibus risus. Cras vestibulum lectus vel eros viverra, non ornare elit commodo. Suspendisse vel odio ut metus feugiat ultricies at non dui. Sed nec semper nisl.</section>
+
+    <footer class="footer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in mattis nunc, id viverra felis. </footer>
+
+    <div class="ad">Lorem ipsum dolor</div>
+    </div>
+</body>
+</html>
